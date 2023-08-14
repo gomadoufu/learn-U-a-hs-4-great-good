@@ -17,7 +17,7 @@
 
 -- instance Functor Maybe where
 --   fmap f (Just x) = Just (f x)
---   fmap f Notiong = Nothing
+--   fmap f Nothing = Nothing
 
 -- EitherもFunctor
 -- 型コンストラクタも部分適用できる！
